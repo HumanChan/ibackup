@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tree" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tree_top.png" width="182" height="168"/>
+ </tileset>
+ <objectgroup name="enemyLayer" width="15" height="50">
+  <object name="obstacle" x="65" y="307" width="30" height="30">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </object>
+  <object name="obstacle" x="350" y="535" width="30" height="30">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </object>
+  <object name="soldier" x="66" y="239" width="30" height="33">
+   <properties>
+    <property name="soldier" value="1"/>
+   </properties>
+  </object>
+  <object name="soldier" x="349" y="464" width="30" height="33">
+   <properties>
+    <property name="soldier" value="1"/>
+   </properties>
+  </object>
+  <object name="obstacle" x="415" y="1093" width="30" height="30">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </object>
+  <object name="soldier" x="414" y="1022" width="30" height="33">
+   <properties>
+    <property name="soldier" value="1"/>
+   </properties>
+  </object>
+  <object name="obstacle" x="122" y="954" width="30" height="30">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </object>
+  <object name="soldier" x="119" y="885" width="30" height="33">
+   <properties>
+    <property name="soldier" value="1"/>
+   </properties>
+  </object>
+  <object name="mine" x="326" y="183" width="30" height="33">
+   <properties>
+    <property name="mine" value="1"/>
+   </properties>
+  </object>
+  <object name="mine" x="150" y="1209" width="30" height="33">
+   <properties>
+    <property name="mine" value="1"/>
+   </properties>
+  </object>
+  <object name="mine" x="349" y="716" width="30" height="33">
+   <properties>
+    <property name="mine" value="1"/>
+   </properties>
+  </object>
+  <object name="mine" x="95" y="615" width="30" height="33">
+   <properties>
+    <property name="mine" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="treeLayer" width="15" height="50"/>
+ <objectgroup name="itemLayer" width="15" height="50">
+  <object name="item" x="289" y="286" width="34" height="33">
+   <properties>
+    <property name="item" value="1"/>
+   </properties>
+  </object>
+  <object name="item" x="155" y="434" width="34" height="33">
+   <properties>
+    <property name="item" value="1"/>
+   </properties>
+  </object>
+  <object name="item" x="298" y="901" width="34" height="33">
+   <properties>
+    <property name="item" value="1"/>
+   </properties>
+  </object>
+  <object name="item" x="142" y="1135" width="34" height="33">
+   <properties>
+    <property name="item" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
