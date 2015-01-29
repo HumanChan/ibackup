@@ -7,7 +7,9 @@
     "height": 640,
     "entry": "src/main.lua",
     "consolePort": 6010,
-    "uploadPort": 6020
+    "uploadPort": 6020,
+    "forwardConsolePort": 10089,
+    "forwardUploadPort": 10091
   },
   "simulator_screen_size": [
     {
