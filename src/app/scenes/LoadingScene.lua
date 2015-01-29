@@ -16,7 +16,6 @@ end
 
 function LoadingScene:onEnter()
     self:startLoad()
-    
 end
 
 function LoadingScene:onExit()
@@ -36,11 +35,11 @@ function LoadingScene:startLoad()
             end
         end)
     end
-    
+
 end
 
 function LoadingScene:onLoadEnded()
---    print("info { "..cc.Director:getInstance():getTextureCache():getCachedTextureInfo().." }")
+    --    print("info { "..cc.Director:getInstance():getTextureCache():getCachedTextureInfo().." }")
     app:enterScene("MainScene")
 end
 
