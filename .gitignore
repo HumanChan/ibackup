@@ -43,4 +43,7 @@ Temporary Items
 .apdisk
 .project
 .buildpath
-sss/
+iosRes/
+.settings/
+frameworks/
+runtime/
