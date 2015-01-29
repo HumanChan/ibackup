@@ -11,6 +11,7 @@ end
 
 function LoadingScene:init()
     self.resLoader = require("app.utils.ResLoader")
+    print("LoadingScene init")
 end
 
 function LoadingScene:onEnter()
