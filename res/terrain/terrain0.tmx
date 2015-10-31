@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="20" height="35" tilewidth="32" tileheight="32" backgroundcolor="#717680" nextobjectid="49">
+ <tileset firstgid="1" name="tree" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tree_top.png" width="182" height="168"/>
+ </tileset>
+ <objectgroup name="enemyLayer"/>
+ <objectgroup name="treeLayer">
+  <object id="37" name="tree" x="17.3333" y="1067.67" width="33" height="31">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="38" name="tree" x="21.5" y="998.5" width="33" height="31">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="39" name="tree" x="19.5" y="562.5" width="33" height="31">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="40" name="tree" x="13.5" y="24.5" width="33" height="31">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="41" name="tree" x="591.5" y="54.5" width="33" height="31">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="43" name="tree" x="591.5" y="354.5" width="33" height="31">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="47" name="tree" x="591.5" y="286.5" width="33" height="31">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="48" name="tree" x="587.5" y="846.5" width="33" height="31">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="itemLayer"/>
+ <objectgroup name="peopleLayer"/>
+</map>

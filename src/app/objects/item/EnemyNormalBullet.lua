@@ -2,13 +2,11 @@
 local EnemyNormalBullet = class("EnemyNormalBullet", require("app.objects.BaseObject"))
 
 function EnemyNormalBullet:ctor()
-    self.facade = cc.Sprite:createWithSpriteFrameName("bullet1.png")
+    self.facade = display.newSprite("#bullet1.png"):addTo(self)
     self.facade:setRotation(90)
-    self.facade:setScale(GC.scale)
-    self:addChild(self.facade)
+    self.box = self.facade:getBoundingBox()
     self.power = 1
     self.isActive = true
-
 end
 
 function EnemyNormalBullet:dispose()
@@ -21,7 +19,7 @@ function EnemyNormalBullet:enterFrame(delta)
     if posY < -50 then
         self:dispose()
     else
-        self:setPositionY(posY - 0.45*delta*GC.HERO_BULLET_SPEED.HAND_GUN)
+        self:setPositionY(posY - 0.6*delta*GC.HERO_BULLET_SPEED.HAND_GUN)
     end
 end
 

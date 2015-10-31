@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="20" height="35" tilewidth="32" tileheight="32" backgroundcolor="#717680" nextobjectid="40">
+ <tileset firstgid="1" name="tree" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tree_top.png" width="182" height="168"/>
+ </tileset>
+ <objectgroup name="enemyLayer">
+  <object id="17" name="obstacle" x="508.667" y="590.667" width="30" height="30">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </object>
+  <object id="18" name="obstacle" x="246.333" y="257" width="30" height="30">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </object>
+  <object id="19" name="soldier" x="250" y="193" width="30" height="33">
+   <properties>
+    <property name="soldier" value="1"/>
+   </properties>
+  </object>
+  <object id="20" name="soldier" x="506.333" y="526.333" width="30" height="33">
+   <properties>
+    <property name="soldier" value="1"/>
+   </properties>
+  </object>
+  <object id="21" name="obstacle" x="189.333" y="257" width="30" height="30">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </object>
+  <object id="22" name="soldier" x="195" y="193" width="30" height="33">
+   <properties>
+    <property name="soldier" value="1"/>
+   </properties>
+  </object>
+  <object id="29" name="obstacle" x="311.167" y="255" width="30" height="30">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </object>
+  <object id="30" name="soldier" x="314.833" y="191" width="30" height="33">
+   <properties>
+    <property name="soldier" value="1"/>
+   </properties>
+  </object>
+  <object id="31" name="obstacle" x="87.1665" y="727" width="30" height="30">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </object>
+  <object id="32" name="soldier" x="90.8335" y="663" width="30" height="33">
+   <properties>
+    <property name="soldier" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="treeLayer">
+  <object id="33" name="tree" x="588.5" y="447" width="31.5" height="31.5">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="34" name="tree" x="590.25" y="198.25" width="31.5" height="31.5">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="35" name="tree" x="594.25" y="902.25" width="31.5" height="31.5">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="36" name="tree" x="8.25" y="94.25" width="31.5" height="31.5">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="37" name="tree" x="8.25" y="1002.25" width="31.5" height="31.5">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="38" name="tree" x="4.25" y="530.25" width="31.5" height="31.5">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="39" name="tree" x="2.25" y="436.25" width="31.5" height="31.5">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="itemLayer">
+  <object id="27" name="item" x="441" y="666" width="34" height="33">
+   <properties>
+    <property name="item" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

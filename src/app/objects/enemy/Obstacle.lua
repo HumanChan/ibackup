@@ -2,9 +2,8 @@
 local Obstacle = class("Obstacle", require("app.objects.BaseObject"))
 
 function Obstacle:ctor()
-    self.facade = cc.Sprite:createWithSpriteFrameName("fence.png")
-    self.facade:setScale(GC.scale)
-    self:addChild(self.facade)
+    self.facade = display.newSprite("#fence.png"):addTo(self)
+    self.box = self.facade:getBoundingBox()
     self.def = 2
     self.isActive = true
 end

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="20" height="35" tilewidth="32" tileheight="32" backgroundcolor="#717680" nextobjectid="44">
+ <tileset firstgid="1" name="tree" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tree_top.png" width="182" height="168"/>
+ </tileset>
+ <objectgroup name="enemyLayer">
+  <object id="17" name="obstacle" x="529.667" y="243" width="30" height="30">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </object>
+  <object id="18" name="obstacle" x="122" y="951" width="30" height="30">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </object>
+  <object id="19" name="soldier" x="120" y="885" width="30" height="33">
+   <properties>
+    <property name="soldier" value="1"/>
+   </properties>
+  </object>
+  <object id="20" name="soldier" x="527" y="182" width="30" height="33">
+   <properties>
+    <property name="soldier" value="1"/>
+   </properties>
+  </object>
+  <object id="23" name="mine" x="426" y="805.667" width="30" height="33">
+   <properties>
+    <property name="mine" value="1"/>
+   </properties>
+  </object>
+  <object id="24" name="mine" x="301" y="578" width="30" height="33">
+   <properties>
+    <property name="mine" value="1"/>
+   </properties>
+  </object>
+  <object id="25" name="mine" x="137" y="261" width="30" height="33">
+   <properties>
+    <property name="mine" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="treeLayer">
+  <properties>
+   <property name="people" value="1"/>
+  </properties>
+  <object id="39" name="tree" x="593.333" y="481" width="31" height="31.3333">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="40" name="tree" x="595.5" y="546.333" width="31" height="31.3333">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="41" name="tree" x="18.5" y="160.333" width="31" height="31.3333">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="42" name="tree" x="16.5" y="640.333" width="31" height="31.3333">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+  <object id="43" name="tree" x="592.5" y="922.333" width="31" height="31.3333">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="itemLayer">
+  <object id="26" name="item" x="467" y="70" width="34" height="33" visible="0">
+   <properties>
+    <property name="item" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="peopleLayer">
+  <object id="37" name="people" x="508.5" y="501.5" width="31.5" height="30" visible="0"/>
+ </objectgroup>
+</map>

@@ -1,20 +1,19 @@
 
-local GameCahce = {}
+local GameCache = {}
 
-GameCahce.pause = false
+GameCache.pause = false
+GameCache.over = false
 
-GameCahce.over = false
-
-GameCahce.level = 1
-
-GameCahce.heros = {  --英雄列表 {武器ID}
+GameCache.heros = {  --英雄列表 {武器ID}
     {CONSTANT.WEAPON_ID.HAND_GUN},
 }
 
-GameCahce.mode = 0  --英雄队形，0为打横，1为打竖
+GameCache.mode = 0  --英雄队形，0为打横，1为打竖
+GameCache.miles = 0  --路程
+GameCache.enemies = 0  --杀死敌人数目
+GameCache.coins = 0  --获取的金币
 
-
-function GameCahce:clear()
+function GameCache:init()
     self.pause = false
     self.over = false
     self.level = 1
@@ -22,8 +21,10 @@ function GameCahce:clear()
         {CONSTANT.WEAPON_ID.HAND_GUN},
     }
     self.mode = 0
+    GameCache.miles = 0
+    GameCache.enemies = 0
+    GameCache.coins = 0
 end
 
 
-
-return GameCahce
+return GameCache

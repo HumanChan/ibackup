@@ -2,13 +2,11 @@
 local HeroNormalBullet = class("HeroNormalBullet", require("app.objects.BaseObject"))
 
 function HeroNormalBullet:ctor()
-    self.facade = cc.Sprite:createWithSpriteFrameName("bullet1.png")
+    self.facade = display.newSprite("#bullet1.png"):addTo(self)
     self.facade:setRotation(-90)
-    self.facade:setScale(GC.scale)
-    self:addChild(self.facade)
+    self.box = self.facade:getBoundingBox()
     self.power = 1
     self.isActive = true
-    
 end
 
 function HeroNormalBullet:dispose()
@@ -18,7 +16,7 @@ end
 
 function HeroNormalBullet:enterFrame(delta)
     local posY = self:getPositionY()
-    if posY > display.height + 20 then
+    if posY > display.height - 70 then
         self:dispose()
     else
         self:setPositionY(posY + delta*GC.HERO_BULLET_SPEED.HAND_GUN)

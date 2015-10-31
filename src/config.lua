@@ -1,6 +1,6 @@
 
 -- 0 - disable debug info, 1 - less debug info, 2 - verbose debug info
-DEBUG = 1
+DEBUG = 0
 
 -- display FPS stats on screen
 DEBUG_FPS = true
@@ -15,11 +15,11 @@ LOAD_DEPRECATED_API = false
 LOAD_SHORTCODES_API = true
 
 -- screen orientation
-CONFIG_SCREEN_ORIENTATION = "landscape"
+CONFIG_SCREEN_ORIENTATION = "portrait"
 
 -- design resolution
-CONFIG_SCREEN_WIDTH  = 960
-CONFIG_SCREEN_HEIGHT = 640
+CONFIG_SCREEN_WIDTH  = 640
+CONFIG_SCREEN_HEIGHT = 960
 
 -- auto scale mode
-CONFIG_SCREEN_AUTOSCALE = "FIXED_HEIGHT"
+CONFIG_SCREEN_AUTOSCALE = "FIXED_WIDTH"
